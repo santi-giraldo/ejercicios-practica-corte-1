@@ -19,7 +19,7 @@ int main() {
         int i = num1;
         while (!divisor && i >= 1){
             if (num1 % i == 0 && num2 % i == 0){
-                cout << "El maximo comun divisor (MCD) es: " << i << endl;
+                cout << "El minimo comun divisor es: " << i << endl;
                 divisor = true;
             }
             else{
